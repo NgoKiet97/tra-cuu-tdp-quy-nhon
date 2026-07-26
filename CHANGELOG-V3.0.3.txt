@@ -1,0 +1,20 @@
+V3.0.3 — 26/07/2026
+
+1. Sửa quy tắc “Toàn bộ”
+- Mọi số nhà nhập đúng tên đường sẽ trả về TDP của bản ghi “Toàn bộ”.
+- Gộp các bản ghi chẵn/lẻ trùng nhau để tránh hiện hai kết quả giống nhau.
+- Hiển thị lưu ý “Toàn bộ đường ... thuộc TDP ...”.
+
+2. Bản đồ
+- Tô đậm polygon TDP theo CSDL.
+- Tải và làm nổi bật phần tuyến đường OSM nằm trong TDP kết quả bằng màu đỏ cam.
+- Không đặt marker cho bản ghi “Toàn bộ” hoặc “Cần kiểm tra”.
+- Marker chỉ xuất hiện khi OSM khớp đúng số nhà, đúng tên đường và tọa độ nằm trong TDP kết quả.
+- Nếu chưa đủ tin cậy, app chỉ tô TDP và tuyến đường.
+
+3. Google Maps
+- Bỏ nút “Xem phố trên GG Maps”.
+- Giữ nút “Mở trên Google Maps”, dùng địa chỉ người dùng nhập và bổ sung ngữ cảnh phường Quy Nhơn, Việt Nam.
+
+4. Giao diện
+- Cập nhật nhãn phiên bản thành V3.0.3.
