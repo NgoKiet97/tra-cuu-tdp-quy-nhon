@@ -1,0 +1,12 @@
+{
+  "name": "tra-cuu-tdp-quy-nhon-v4",
+  "private": true,
+  "version": "4.0.0",
+  "type": "module",
+  "scripts": {
+    "data:build": "node tools/build-data.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "build": "node tools/build-site.mjs",
+    "preview": "node tools/serve.mjs"
+  }
+}

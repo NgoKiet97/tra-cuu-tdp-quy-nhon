@@ -1,0 +1,17 @@
+.phone-open{margin-left:9px;border:1px solid #b8dbd5;background:#fff;color:#087267;border-radius:8px;padding:4px 8px;font-size:12px;font-weight:850;vertical-align:middle}
+.phone-dialog{width:min(410px,calc(100% - 30px));max-width:410px;border:1px solid #cde1df;border-radius:17px;padding:20px;box-shadow:0 18px 50px #0d3b4c33;color:#18333d}
+.phone-dialog::backdrop{background:#0d3b4c77}
+.phone-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.phone-head h2{margin:0;font-size:20px}
+.phone-close{border:0;background:transparent;font-size:28px;line-height:1;color:#45646c}
+.phone-for{margin:11px 0 16px;color:#607982}
+.phone-password-field{display:flex;gap:8px;align-items:stretch}
+.phone-password-field input{min-width:0;flex:1}
+.phone-password-toggle{flex:none;min-width:62px;padding:0 11px;border:1px solid #b8dbd5;border-radius:12px;background:#fff;color:#087267;font-weight:850}
+.phone-controls{margin-top:12px}
+.phone-controls .primary{width:100%}
+.phone-message{margin:12px 0 0;color:#8f2118}
+.phone-message:empty{display:none}
+.phone-reveal{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:15px;padding:12px;background:#eaf8f5;border-radius:12px}
+.phone-reveal[hidden]{display:none}
+.phone-number{font-size:18px;font-weight:850}
