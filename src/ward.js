@@ -1,3 +1,4 @@
+import { trackEvent } from './analytics.js';
 const app = document.querySelector('.app');
 const coming = document.querySelector('#ward-coming');
 const banner = document.querySelector('#ward-banner');
@@ -5,6 +6,7 @@ const title = document.querySelector('#main-title');
 const buttons = [...document.querySelectorAll('[data-switch-ward]')];
 
 function switchWard(ward) {
+  if (app.dataset.ward !== ward) trackEvent('switch_area', { ward });
   const isSouth = ward === 'quy-nhon-nam';
   app.dataset.ward = isSouth ? 'quy-nhon-nam' : 'quy-nhon';
   coming.hidden = !isSouth;
